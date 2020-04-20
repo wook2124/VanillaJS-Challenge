@@ -1,0 +1,1 @@
+console.log("JiHye is Beautiful, JiHye is 뚠뚠이")
