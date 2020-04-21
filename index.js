@@ -1,1 +1,11 @@
-console.log("JiHye is Beautiful, JiHye is 뚠뚠이")
+const jihyeInfo = {
+  name: "JiHye",
+  age: 24,
+  gender: "Female",
+  favFood: {
+    name: ["pasta", "엽떡", "참치김밥"],
+    good: true
+  }
+}
+
+console.log(jihyeInfo.favFood.name[2])
