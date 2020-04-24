@@ -7,5 +7,3 @@ const jihyeInfo = {
     good: true
   }
 }
-
-console.log(jihyeInfo.favFood.name[2])
