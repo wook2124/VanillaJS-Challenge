@@ -9,7 +9,7 @@ function getTime() {
     minutes = date.getMinutes(),
     seconds = date.getSeconds();
 
-  clockTitle.innerText = `${day}d ${hours < 10 ? `${hours}` : hours}h ${minutes < 10 ? `${minutes}` : minutes}m ${seconds < 10 ? `0${seconds}` : seconds}s`;
+  clockTitle.innerText = `${day < 10 ? `${day}` : day}d ${hours < 10 ? `${hours}` : hours}h ${minutes < 10 ? `${minutes}` : minutes}m ${seconds < 10 ? `0${seconds}` : seconds}s`;
 }
 
 function init() {
