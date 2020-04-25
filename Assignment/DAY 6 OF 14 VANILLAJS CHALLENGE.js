@@ -16,3 +16,32 @@
     <script src="src/index.js"></script>
   </body>
 </html>
+
+
+// <⚠️ DONT DELETE THIS ⚠️>
+import "./styles.css";
+// <⚠️ /DONT DELETE THIS ⚠️>
+
+const s_country = document.querySelector(".country"),
+  y_country = document.querySelector(".your-country");
+
+const COUNTRY_LS = "country";
+
+function yourCountry(country) {
+  y_country.innerText = `Your country is ${country}!🌏`;
+}
+
+function selectCountry() {}
+
+function loadCountry() {
+  const country = localStorage.getItem(COUNTRY_LS);
+  if (country === null) {
+    selectCountry();
+  } else {
+    yourCountry();
+  }
+}
+
+function init() {}
+
+init();
