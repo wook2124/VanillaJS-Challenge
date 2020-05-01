@@ -34,6 +34,20 @@ init();
 
 
 // 정답
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="js-clock">
+    <script src="src/index.js"></script>
+  </body>
+</html>
+
+
 import "./styles.css";
 
 const clockTitle = document.querySelector(".js-clock");
