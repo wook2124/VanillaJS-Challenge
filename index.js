@@ -6,4 +6,4 @@ const jihyeInfo = {
     name: ["pasta", "엽떡", "참치김밥"],
     good: true
   }
-}
+} 
