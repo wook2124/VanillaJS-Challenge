@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    meta:utf
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    
+    meta:vp
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    meta:edge
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    link:css
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Emmet Practice</title>
 </head>
 <body>
 
     header>hgroup>h2+h4
-
     <header>
         <hgroup>
             <h2></h2>
@@ -20,7 +26,6 @@
 
 
     header.super-awesome>hgroup#whatever>h2.hello+h4.bye
-
     <header class="super-awesome">
         <hgroup id="whatever">
             <h2 class="hello"></h2>
@@ -30,7 +35,6 @@
 
 
     header.super-awesome>hgroup#whatever>h2.hello{Hello!!}+h4.bye{Bye!!!}
-
     <header class="super-awesome">
         <hgroup id="whatever">
             <h2 class="hello">Hello!!</h2>
@@ -40,7 +44,6 @@
 
 
     section.photo>(header>h1{Photo Title})+(.comments>ul>li.comment*5{Hello $})
-
     <section class="photo">
         <header>
             <h1>Photo Title</h1>
@@ -58,25 +61,34 @@
 
 
     script:src
+    <script src=""></script>
+
 
     form:get
+    <form action="" method="get"></form>
+    
     form:post
+    <form action="" method="post"></form>
+
 
     a:mail
-    a:link
-    a:link[target="_blank"]
+    <a href="mailto:"></a>
 
+    a:link
+    <a href="http://"></a>
+    
+    a:link[target="_blank"]
     <a href="http://google.com" target="_blank">Google</a>
 
 
-    input:text
-    input:text[placeholder="Whatever"]
+    input:button
+    <input type="button" value="">
 
+    input:text[placeholder="Whatever"]
     <input type="text" name="" id="" placeholder="Whatever">
 
     input:password
-    
     <input type="password" name="" id="">    
-    
+
 </body>
 </html>
