@@ -1,0 +1,20 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+}
+
+h2 {
+  color: white;
+}
+
+.bigScreen {
+  background-color: #f3d148;
+}
+
+.mediumScreen {
+  background-color: #9d5eb6;
+}
+
+.smallScreen {
+  background-color: #49a7e6;
+}
