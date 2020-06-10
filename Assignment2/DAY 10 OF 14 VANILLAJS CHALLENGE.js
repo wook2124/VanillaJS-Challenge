@@ -8,6 +8,11 @@ const guessForm = document.getElementById("js-guess");
 const result = document.getElementById("js-result");
 
 // e = event
+function handleRangeChange(e) {
+  const titleSpanRange = title.querySelector("span");
+  titleSpanRange.innerHTML = range.value;
+}
+
 function handleGuessSubmit(e) {
   e.preventDefault();
   const guessInput = guessForm.querySelector("input");
@@ -23,10 +28,5 @@ function handleGuessSubmit(e) {
   }</strong>`;
 }
 
-function handleRangeChange(e) {
-  const titleSpanRange = title.querySelector("span");
-  titleSpanRange.innerHTML = range.value;
-}
-
-guessForm.addEventListener("submit", handleGuessSubmit);
 range.addEventListener("input", handleRangeChange);
+guessForm.addEventListener("submit", handleGuessSubmit);
